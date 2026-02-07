@@ -22,6 +22,8 @@ fn show_menu() -> i32 {
         println!("3) Exit\n");
         print!("Enter choice: ");
 
+        io::stdout().flush().unwrap();
+
         let mut input = String::new();
         io::stdin()
             .read_line(&mut input)

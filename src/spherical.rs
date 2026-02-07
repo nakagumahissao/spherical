@@ -47,7 +47,7 @@ impl fmt::Display for Polar {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(
             f,
-            "Spherical Coordinates:\n\
+            "Spherical Coordinates:\n\n\
              r = {}\n\
              p = {}\n\
              theta = {} rad ({}°)\n\
@@ -82,7 +82,7 @@ impl fmt::Display for Rectangular {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(
             f,
-            "Rectangular Coordinates:\n\
+            "Rectangular Coordinates:\n\n\
              x = {}\n\
              y = {}\n\
              z = {}",
